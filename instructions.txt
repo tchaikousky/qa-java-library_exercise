@@ -1,0 +1,39 @@
+Support Task: Library
+    Create a library system with functionality to manage items and people within the library. 
+Rules:
+
+
+	
+At least one Abstract Class must be implemented.
+	At least one Interface Class must be implemented.
+	Each item should have at least 1 additional attribute unique to itself.
+	Method Overloading implemented.
+	Correct usage of access modifiers
+	Naming conventions adhered too
+	Commenting only where necessary.
+	At least 3 of the following items:
+	a.    Books
+	b.    Maps 
+	c.    Government documents
+	d.    Media resources (Camera etc.)
+	e.    Newspapers
+	f.    Journals
+	g.    Magazines
+	h.    Dissertations
+	i.    Theses
+	 
+	ALL of the following:
+	a.    Check out item
+	b.    Check in item
+	c.    Add item
+	d.    Remove item
+	e.    Update item
+	f.    Register person
+	g.    Delete person
+	h.    Update person
+	 
+	Implement an ID system in your library project, utilizing a static integer variable.
+
+Stretch Goal
+
+Create a method to write the current library contents (Any items currently in the library) to a file, and another method to load them from a file into the library.
