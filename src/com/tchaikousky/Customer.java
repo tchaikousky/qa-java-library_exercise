@@ -8,7 +8,7 @@ public class Customer extends Person implements Viewable {
 	private ArrayList<LibraryItem> allRentedItems;
 	private ArrayList<String> membershipCities;
 
-	public Customer(String firstName, String lastName, String age) {
+	public Customer(String firstName, String lastName, int age) {
 		super(firstName, lastName, age);
 		this.customerId += 1;
 		currentRentedItems = new ArrayList<>();
