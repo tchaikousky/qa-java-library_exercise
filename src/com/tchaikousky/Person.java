@@ -3,10 +3,10 @@ package com.tchaikousky;
 public abstract class Person {
 	private String firstName;
 	private String lastName;
-	private String age;
+	private int age;
 	private String name;
 	
-	public Person(String firstName, String lastName, String age) {
+	public Person(String firstName, String lastName, int age) {
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.name = firstName + " " + lastName;
@@ -29,16 +29,20 @@ public abstract class Person {
 		this.lastName = lastName;
 	}
 
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
 
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	
 	public String getName() {
 		return name;
+	}
+	
+	public void setName() {
+		this.name = this.firstName + " " + this.lastName;
 	}
 	
 }
